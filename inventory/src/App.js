@@ -8,10 +8,14 @@ function App() {
   return (
     <div className="App">
       <Info></Info>
+      <List text="This is my first item!"></List>
+      <List text="This is my second item!"></List>
       <List></List>
+      
     </div>
   );
 }
+
 
 
 export default App;

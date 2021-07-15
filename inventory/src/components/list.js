@@ -1,23 +1,27 @@
 import React from "react";
 
 class List extends React.Component{
+
+    constructor(props){
+        super();
+    }
+
     render(){
         return(
             <div>
-                <ol>
+                <ul>
                     <li>
-                        This is our first item!
+                        {this.props.text}
                     </li>
-                    <li>
-                        This is our second item!
-                    </li>
-                    <li>
-                        This is our third item!
-                    </li>
-                </ol>
+                    
+                </ul>
             </div>
         )
     }
+}
+
+List.defaultProps = {
+    text: "default"
 }
 
 export default List;
