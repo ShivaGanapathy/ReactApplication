@@ -1,5 +1,5 @@
 import './App.css';
-import Info from "./info.js"
+import Info from "./components/info.js"
 import { PropTypes } from "prop-types"
 import {useState} from "react";
 function App() {
