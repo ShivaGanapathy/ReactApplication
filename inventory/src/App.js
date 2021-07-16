@@ -1,17 +1,22 @@
+import React from 'react';
 import './App.css';
-import Info from "./components/info.js"
-import List from "./components/list.js"
-// import { PropTypes } from "prop-types"
-// import {useState} from "react";
+import SearchBar from './components/SearchBar';
+import {useState} from "react";
 
 function App() {
+  const [data, setdata] = useState({})
+
+  const updateData = (searchParams) =>{
+    setdata(searchParams)
+  }
+
   return (
     <div className="App">
-      <Info></Info>
-      <List text="This is my first item!"></List>
-      <List text="This is my second item!"></List>
-      <List></List>
-      
+      <SearchBar callback={updateData}></SearchBar>
+      <p>Name: {"name" in data ? data["name"]:"No data to display"}</p>
+      <p>Price: {"price" in data ? data["price"]:"No data to display"}</p>
+      <p>Type: {"type" in data ? data["type"]:"No data to display"}</p>
+      <p>Brand: {"brand" in data ? data["brand"]:"No data to display"}</p>
     </div>
   );
 }
