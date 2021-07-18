@@ -5,7 +5,7 @@ function ItemsDisplay(props){
             {props.items.map( (item) => {
                 return(
                     <div>
-                        <p>Item: {item.id}</p>
+                        <p>Id: {item.id}</p>
                         <p>Name: {item.name}</p>
                         <p>Price: {item.price}</p>
                         <p>Type: {item.type}</p>
