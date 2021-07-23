@@ -1,0 +1,22 @@
+[
+    {
+        "leetcodeId" : 1,
+        "title" : "Two Sum",
+        "Difficulty" : "Easy",
+        "blind" : true
+    },
+
+    {
+        "leetcodeId" : 121,
+        "title" : "Best Time to Buy and Sell Stock",
+        "Difficulty" : "Easy",
+        "blind" : true
+    },
+
+    {
+        "leetcodeId" : 217,
+        "title" : "Contains Duplicate",
+        "difficulty" : "Easy",
+        "blind" : true 
+    }
+]
