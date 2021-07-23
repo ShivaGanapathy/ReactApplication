@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import SearchBar from './components/SearchBar';
+import Leetcode from './components/Leetcode';
 import AddItem from './components/AddItem';
 import ItemsDisplay from './components/ItemsDisplay';
 import {useState} from "react";
@@ -55,6 +56,10 @@ function App() {
 
   return (
     <div className="container">
+
+    <div className="row mt-3">
+      <Leetcode></Leetcode>
+    </div>
 
     <div className="row mt-3">
       <ItemsDisplay items = {filterData(data["items"])}></ItemsDisplay>
