@@ -32,6 +32,13 @@
         "title" : "Median of Two Sorted Arrays",
         "difficulty" : "Hard",
         "blind" : "No" 
+    },
+
+    {
+        "id" : 2,
+        "title" : "Add Two Numbers",
+        "difficulty" : "Medium",
+        "blind" : "No" 
     }
     
 ]
