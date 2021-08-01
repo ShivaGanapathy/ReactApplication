@@ -35,6 +35,13 @@
     },
 
     {
+        "id" : 3,
+        "title" : "Longest Substring Without Repeating Characters",
+        "difficulty" : "Medium",
+        "blind" : "Yes" 
+    },
+
+    {
         "id" : 2,
         "title" : "Add Two Numbers",
         "difficulty" : "Medium",
